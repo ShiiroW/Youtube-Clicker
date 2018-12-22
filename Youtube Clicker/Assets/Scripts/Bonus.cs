@@ -2,9 +2,10 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Bonus : MonoBehaviour
+public class Bonus 
 {
 
+    public int typeId = 0;
     public bool gainSubs = true; //SI TRUE : AUGMENTE LES SUBS
     public bool gainMoney = true; //SI TRUE : AUGMENTE L'ARGENT
     public float subGainPerSecond;
@@ -13,7 +14,16 @@ public class Bonus : MonoBehaviour
     float moneyActualGain = 0;
 
     // Update is called once per frame
-    void Update()
+
+    public Bonus(int typeId, bool gainSubs, bool gainMoney, float subGainPerSecond, float moneyGainPerSecond) {
+        this.typeId = typeId;
+        this.gainSubs = gainSubs;
+        this.gainMoney = gainMoney;
+        this.subGainPerSecond = subGainPerSecond;
+        this.moneyGainPerSecond = moneyGainPerSecond;
+    }
+
+    public void Update()
     {
         if (gainSubs)
         {
