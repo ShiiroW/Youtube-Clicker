@@ -440,7 +440,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 712, y: -16.999939}
+  m_AnchoredPosition: {x: 712, y: -27.8}
   m_SizeDelta: {x: 161, y: 113}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &208139332
@@ -864,7 +864,7 @@ Camera:
   m_TargetDisplay: 0
   m_TargetEye: 0
   m_HDR: 0
-  m_AllowMSAA: 0
+  m_AllowMSAA: 1
   m_AllowDynamicResolution: 0
   m_ForceIntoRT: 0
   m_OcclusionCulling: 0
@@ -1174,7 +1174,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 20.1, y: -180}
+  m_AnchoredPosition: {x: 20.1, y: -170.3}
   m_SizeDelta: {x: 161, y: 113}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &762603699
@@ -1765,7 +1765,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 20, y: -17}
+  m_AnchoredPosition: {x: 20, y: -27.8}
   m_SizeDelta: {x: 161, y: 113}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1355959444
@@ -2004,7 +2004,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -195, y: 278}
+  m_AnchoredPosition: {x: -195, y: 266.7}
   m_SizeDelta: {x: 290, y: 313}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1477258486
@@ -2301,7 +2301,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 712.0001, y: -179.99994}
+  m_AnchoredPosition: {x: 712.0001, y: -170.3}
   m_SizeDelta: {x: 161, y: 113}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1852253987
@@ -2665,7 +2665,7 @@ PrefabInstance:
     - target: {fileID: 3554733808161076448, guid: ccd07192c4e73614b8db8351bf8b95e4,
         type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: 278
+      value: 266.7
       objectReference: {fileID: 0}
     - target: {fileID: 3554733808161076448, guid: ccd07192c4e73614b8db8351bf8b95e4,
         type: 3}
@@ -2706,6 +2706,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Pivot.y
       value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 3554733808161076448, guid: ccd07192c4e73614b8db8351bf8b95e4,
+        type: 3}
+      propertyPath: m_LocalScale.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3554733808161076448, guid: ccd07192c4e73614b8db8351bf8b95e4,
+        type: 3}
+      propertyPath: m_LocalScale.y
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 3554733809755551065, guid: ccd07192c4e73614b8db8351bf8b95e4,
         type: 3}
