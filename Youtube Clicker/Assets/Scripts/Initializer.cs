@@ -12,8 +12,6 @@ public class Initializer : MonoBehaviour
     {
         BonusData.Init();
 
-        manager.AddBonus(1);
-
         Destroy(gameObject);
     }
 }
