@@ -17,6 +17,10 @@ public class ButtonManager : MonoBehaviour
         {
             b = new Sub4SubButton();
         }
+        else if (buttonType == "Drama")
+        {
+            b = new DramaButton();
+        }
     }
 
     // Update is called once per frame
