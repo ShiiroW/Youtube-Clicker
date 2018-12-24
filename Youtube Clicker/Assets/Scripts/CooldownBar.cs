@@ -19,11 +19,16 @@ public class CooldownBar : MonoBehaviour
         jaugeRect = jauge.GetComponent<RectTransform>();
         jaugeBoutRect = jaugeBout.GetComponent<RectTransform>();
         maxWidth *= transform.localScale.x;
-        Debug.Log(maxWidth);
         basePos = jaugeRect.localPosition;
         realBasePos = transform.position;
         padding *= transform.localScale.x;
         maxWidth -= padding*2.5f;
+
+        Button btn = b.getButton();
+        jaugeRect.sizeDelta = new Vector2(maxWidth, jaugeRect.sizeDelta.y);
+        jaugeRect.localPosition = basePos + new Vector3(maxWidth / 2, 0, 0);
+
+        jaugeBoutRect.localPosition = basePos + new Vector3(maxWidth, 0, 0);
     }
 
     // Update is called once per frame
