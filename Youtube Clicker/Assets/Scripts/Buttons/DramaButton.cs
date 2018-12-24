@@ -8,4 +8,10 @@ public class DramaButton : Button
     {
         this.subGain = (int) (CounterDisplayer.subs * 0.1);
     }
+
+    public override void OnClick()
+    {
+        this.subGain = (int)(CounterDisplayer.subs * 0.1);
+        base.OnClick();
+    }
 }

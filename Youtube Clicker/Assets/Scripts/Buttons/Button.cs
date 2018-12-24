@@ -32,7 +32,7 @@ public class Button {
         }
     }
 
-    public void OnClick()
+    public virtual void OnClick()
     {
         if (!isClickacble) return;
         CounterDisplayer.subs += subGain;
