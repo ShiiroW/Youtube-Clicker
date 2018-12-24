@@ -9,12 +9,12 @@ public class Button {
     float timeLeft = 5*60;
     public bool cooldownStarted = false;
 
-    public int subGain = 0;
-    public int moneyGain = 0;
-    public int reputationGain = 0;
-    public int videosGain = 0;
+    public long subGain = 0;
+    public long moneyGain = 0;
+    public float reputationGain = 0;
+    public long videosGain = 0;
 
-    public Button(float cooldown, int subGain, int moneyGain, int reputationGain, int videosGain)
+    public Button(float cooldown, long subGain, long moneyGain, float reputationGain, long videosGain)
     {
         this.cooldown = cooldown;
         this.subGain = subGain;

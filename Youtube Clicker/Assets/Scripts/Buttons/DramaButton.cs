@@ -4,7 +4,8 @@ using UnityEngine;
 
 public class DramaButton : Button
 {
-    public DramaButton() : base(0.2f, -200, 700, 1, 0)
+    public DramaButton() : base(300, 0, 0, -10, 0)
     {
+        this.subGain = (int) (CounterDisplayer.subs * 0.1);
     }
 }

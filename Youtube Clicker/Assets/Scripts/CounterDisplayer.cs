@@ -6,10 +6,10 @@ using UnityEngine;
 public class CounterDisplayer : MonoBehaviour
 {
 
-    public static int subs = 0;
-    public static int money = 0;
-    public static int reputation = 0;
-    public static int videos = 0;
+    public static long subs = 0;
+    public static long money = 0;
+    public static float reputation = 0;
+    public static long videos = 0;
 
     public GameObject subText;
     public GameObject moneyText;
@@ -19,8 +19,8 @@ public class CounterDisplayer : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        subText.GetComponent<TextMeshProUGUI>().text = subs.ToString();
-        moneyText.GetComponent<TextMeshProUGUI>().text = money.ToString();
+        subText.GetComponent<TextMeshProUGUI>().text = Utils.formatInt(subs);
+        moneyText.GetComponent<TextMeshProUGUI>().text = Utils.formatInt(money);
     }
 
     public void incrementSubs(int inc)
@@ -37,6 +37,6 @@ public class CounterDisplayer : MonoBehaviour
     public void setVideos(int vid)
     {
         videos = vid;
-        videosText.GetComponent<TextMeshProUGUI>().text = videos.ToString();
+        videosText.GetComponent<TextMeshProUGUI>().text = Utils.formatInt(videos);
     }
 }

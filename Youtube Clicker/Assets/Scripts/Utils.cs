@@ -4,19 +4,27 @@ using UnityEngine;
 
 public class Utils
 {
-    public static string formatInt(int i)
+    public static string formatInt(long i)
     {
         string result = "";
         string iStr = i.ToString();
+        if (i < 0) iStr = (i * -1).ToString();
+        int index = 0;
 
-        for (int j = iStr.Length; j > 0; j--)
+        for (int j = 0; j < iStr.Length; j++)
         {
-            char chr = iStr.ToCharArray()[iStr.Length-j];
-            if ((iStr.Length - j) % 3 == 0) result += " ";
-            result += chr;
+            char chr = iStr.ToCharArray()[iStr.Length-1-j];
+            if (index == 3)
+            {
+                result = " " + result;
+                index = 0;
+            }
+
+            result = chr + result;
+            index++;
         }
 
-        result = result.Substring(1);
+        if (i < 0) result = "- " + result;
 
         return result;
     }

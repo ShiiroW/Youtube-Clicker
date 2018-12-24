@@ -25,7 +25,7 @@ public class Bonus
        subActualGain += subGainFrame;
        if (Mathf.Abs(subActualGain) >= 1)
        {
-            CounterDisplayer.subs += (int) Mathf.Round(subActualGain);
+            CounterDisplayer.subs += (long) Mathf.Round(subActualGain);
             subActualGain = 0;
        }
 
@@ -33,7 +33,7 @@ public class Bonus
         moneyActualGain += moneyGainFrame;
           if (Mathf.Abs(moneyActualGain) >= 1)
           {
-              CounterDisplayer.money += (int) Mathf.Round(moneyActualGain);
+              CounterDisplayer.money += (long) Mathf.Round(moneyActualGain);
               moneyActualGain = 0;
           }
     }

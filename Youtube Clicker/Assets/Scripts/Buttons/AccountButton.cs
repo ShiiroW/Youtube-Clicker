@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class AccountButton : Button
 {
-    public AccountButton() : base(20, 1500, 0, 0, 0)
+    public AccountButton() : base(10, 1, 0, 0, 0)
     {
     }
 }
