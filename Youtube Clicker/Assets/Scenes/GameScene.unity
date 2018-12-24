@@ -537,10 +537,10 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_text: Video
+  m_text: VIDEO
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 7c4a3307ee556204a8d5d4c3d02d07ad, type: 2}
-  m_sharedMaterial: {fileID: 21448717993289848, guid: 7c4a3307ee556204a8d5d4c3d02d07ad,
+  m_fontAsset: {fileID: 11400000, guid: 6cea4fb1489a4e94c9071e66d76ff10f, type: 2}
+  m_sharedMaterial: {fileID: 21616726560957592, guid: 6cea4fb1489a4e94c9071e66d76ff10f,
     type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
@@ -572,10 +572,10 @@ MonoBehaviour:
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
   m_fontSizeMax: 72
-  m_fontStyle: 0
-  m_textAlignment: 257
+  m_fontStyle: 1
+  m_textAlignment: 513
   m_isAlignmentEnumConverted: 1
-  m_characterSpacing: 0
+  m_characterSpacing: -4.22
   m_wordSpacing: 0
   m_lineSpacing: 0
   m_lineSpacingMax: 0
@@ -908,10 +908,10 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_text: argent
+  m_text: ARGENT
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 7c4a3307ee556204a8d5d4c3d02d07ad, type: 2}
-  m_sharedMaterial: {fileID: 21448717993289848, guid: 7c4a3307ee556204a8d5d4c3d02d07ad,
+  m_fontAsset: {fileID: 11400000, guid: 6cea4fb1489a4e94c9071e66d76ff10f, type: 2}
+  m_sharedMaterial: {fileID: 21616726560957592, guid: 6cea4fb1489a4e94c9071e66d76ff10f,
     type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
@@ -943,10 +943,10 @@ MonoBehaviour:
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
   m_fontSizeMax: 72
-  m_fontStyle: 0
-  m_textAlignment: 257
+  m_fontStyle: 1
+  m_textAlignment: 513
   m_isAlignmentEnumConverted: 1
-  m_characterSpacing: 0
+  m_characterSpacing: -4.22
   m_wordSpacing: 0
   m_lineSpacing: 0
   m_lineSpacingMax: 0
@@ -1229,10 +1229,10 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_text: Reput
+  m_text: REPUT
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 7c4a3307ee556204a8d5d4c3d02d07ad, type: 2}
-  m_sharedMaterial: {fileID: 21448717993289848, guid: 7c4a3307ee556204a8d5d4c3d02d07ad,
+  m_fontAsset: {fileID: 11400000, guid: 6cea4fb1489a4e94c9071e66d76ff10f, type: 2}
+  m_sharedMaterial: {fileID: 21616726560957592, guid: 6cea4fb1489a4e94c9071e66d76ff10f,
     type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
@@ -1264,10 +1264,10 @@ MonoBehaviour:
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
   m_fontSizeMax: 72
-  m_fontStyle: 0
-  m_textAlignment: 257
+  m_fontStyle: 1
+  m_textAlignment: 513
   m_isAlignmentEnumConverted: 1
-  m_characterSpacing: 0
+  m_characterSpacing: -4.22
   m_wordSpacing: 0
   m_lineSpacing: 0
   m_lineSpacingMax: 0
@@ -1562,26 +1562,6 @@ PrefabInstance:
       propertyPath: buttonType
       value: CreateAccount
       objectReference: {fileID: 0}
-    - target: {fileID: 9106830510594692727, guid: fd91149966be25a4199cff5f81876259,
-        type: 3}
-      propertyPath: m_AnchoredPosition.y
-      value: -187.9
-      objectReference: {fileID: 0}
-    - target: {fileID: 9106830510594692727, guid: fd91149966be25a4199cff5f81876259,
-        type: 3}
-      propertyPath: m_AnchoredPosition.x
-      value: 0.5
-      objectReference: {fileID: 0}
-    - target: {fileID: 9106830510594692726, guid: fd91149966be25a4199cff5f81876259,
-        type: 3}
-      propertyPath: m_fontSize
-      value: 32
-      objectReference: {fileID: 0}
-    - target: {fileID: 9106830510594692726, guid: fd91149966be25a4199cff5f81876259,
-        type: 3}
-      propertyPath: m_enableAutoSizing
-      value: 0
-      objectReference: {fileID: 0}
     - target: {fileID: 9106830510594692726, guid: fd91149966be25a4199cff5f81876259,
         type: 3}
       propertyPath: m_havePropertiesChanged
@@ -1595,12 +1575,12 @@ PrefabInstance:
     - target: {fileID: 9106830510594692726, guid: fd91149966be25a4199cff5f81876259,
         type: 3}
       propertyPath: m_fontSizeBase
-      value: 32
+      value: 36
       objectReference: {fileID: 0}
     - target: {fileID: 9106830510594692726, guid: fd91149966be25a4199cff5f81876259,
         type: 3}
       propertyPath: m_text
-      value: double comptes
+      value: Double Comptes
       objectReference: {fileID: 0}
     - target: {fileID: 9106830510594692726, guid: fd91149966be25a4199cff5f81876259,
         type: 3}
@@ -1641,6 +1621,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_margin.w
       value: 20.681885
+      objectReference: {fileID: 0}
+    - target: {fileID: 6698631400536565546, guid: fd91149966be25a4199cff5f81876259,
+        type: 3}
+      propertyPath: m_havePropertiesChanged
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6698631400536565546, guid: fd91149966be25a4199cff5f81876259,
+        type: 3}
+      propertyPath: m_isInputParsingRequired
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: fd91149966be25a4199cff5f81876259, type: 3}
@@ -1935,17 +1925,12 @@ PrefabInstance:
     - target: {fileID: 9106830510594692726, guid: fd91149966be25a4199cff5f81876259,
         type: 3}
       propertyPath: m_havePropertiesChanged
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 9106830510594692726, guid: fd91149966be25a4199cff5f81876259,
         type: 3}
       propertyPath: m_isInputParsingRequired
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 9106830510594692726, guid: fd91149966be25a4199cff5f81876259,
-        type: 3}
-      propertyPath: m_fontSize
-      value: 40
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 9106830510594692726, guid: fd91149966be25a4199cff5f81876259,
         type: 3}
@@ -1964,13 +1949,23 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 9106830510594692726, guid: fd91149966be25a4199cff5f81876259,
         type: 3}
-      propertyPath: m_enableAutoSizing
-      value: 0
+      propertyPath: m_fontSizeBase
+      value: 36
       objectReference: {fileID: 0}
     - target: {fileID: 9106830510594692726, guid: fd91149966be25a4199cff5f81876259,
         type: 3}
-      propertyPath: m_fontSizeBase
-      value: 40
+      propertyPath: m_isRightToLeft
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6698631400536565546, guid: fd91149966be25a4199cff5f81876259,
+        type: 3}
+      propertyPath: m_havePropertiesChanged
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6698631400536565546, guid: fd91149966be25a4199cff5f81876259,
+        type: 3}
+      propertyPath: m_isInputParsingRequired
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: fd91149966be25a4199cff5f81876259, type: 3}
@@ -2212,10 +2207,10 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_text: abonnes
+  m_text: ABONNES
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 7c4a3307ee556204a8d5d4c3d02d07ad, type: 2}
-  m_sharedMaterial: {fileID: 21448717993289848, guid: 7c4a3307ee556204a8d5d4c3d02d07ad,
+  m_fontAsset: {fileID: 11400000, guid: 6cea4fb1489a4e94c9071e66d76ff10f, type: 2}
+  m_sharedMaterial: {fileID: 21616726560957592, guid: 6cea4fb1489a4e94c9071e66d76ff10f,
     type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
@@ -2247,10 +2242,10 @@ MonoBehaviour:
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
   m_fontSizeMax: 72
-  m_fontStyle: 0
-  m_textAlignment: 257
+  m_fontStyle: 1
+  m_textAlignment: 513
   m_isAlignmentEnumConverted: 1
-  m_characterSpacing: 0
+  m_characterSpacing: -4.22
   m_wordSpacing: 0
   m_lineSpacing: 0
   m_lineSpacingMax: 0
@@ -2526,6 +2521,16 @@ PrefabInstance:
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 9106830510594692726, guid: fd91149966be25a4199cff5f81876259,
+        type: 3}
+      propertyPath: m_isInputParsingRequired
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6698631400536565546, guid: fd91149966be25a4199cff5f81876259,
+        type: 3}
+      propertyPath: m_havePropertiesChanged
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6698631400536565546, guid: fd91149966be25a4199cff5f81876259,
         type: 3}
       propertyPath: m_isInputParsingRequired
       value: 1

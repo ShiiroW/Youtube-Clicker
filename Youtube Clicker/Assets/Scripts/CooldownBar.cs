@@ -1,10 +1,11 @@
-﻿using UnityEngine;
+﻿using TMPro;
+using UnityEngine;
 
 public class CooldownBar : MonoBehaviour
 {
 
     public ButtonManager b;
-    public GameObject jauge, jaugeBout;
+    public GameObject jauge, jaugeBout, text;
     RectTransform jaugeRect;
     RectTransform jaugeBoutRect;
     public float maxWidth;
@@ -34,13 +35,15 @@ public class CooldownBar : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (b.getButton().cooldownStarted)
-        {
-            Button btn = b.getButton();
+        Button btn = b.getButton();
+        if (b.getButton().cooldownStarted) { 
+        
             jaugeRect.sizeDelta = new Vector2(maxWidth*(btn.getTimeLeft()/(btn.cooldown*60)), jaugeRect.sizeDelta.y);
             jaugeRect.localPosition = basePos + new Vector3(maxWidth * (btn.getTimeLeft() / (btn.cooldown * 60))/2, 0, 0);
 
             jaugeBoutRect.localPosition = basePos + new Vector3(maxWidth * (btn.getTimeLeft() / (btn.cooldown * 60)), 0, 0);
-        }
+
+            text.GetComponent<TextMeshProUGUI>().text = Utils.formatTime((int) ((btn.cooldown-btn.getTimeLeft()/60)));
+        }else text.GetComponent<TextMeshProUGUI>().text = Utils.formatTime((int) btn.cooldown);
     }
 }
