@@ -511,7 +511,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9f586d90193745d478b1666b79356297, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  cooldown: 600
+  cooldown: 30
   cooldownStarted: 0
 --- !u!4 &1791344671
 Transform:

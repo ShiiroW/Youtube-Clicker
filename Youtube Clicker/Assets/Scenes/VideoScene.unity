@@ -1316,6 +1316,11 @@ PrefabInstance:
       propertyPath: buttonAvailable
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 9106830509370644841, guid: fd91149966be25a4199cff5f81876259,
+        type: 3}
+      propertyPath: buttonType
+      value: Classique
+      objectReference: {fileID: 0}
     - target: {fileID: 9106830510594692726, guid: fd91149966be25a4199cff5f81876259,
         type: 3}
       propertyPath: m_havePropertiesChanged
