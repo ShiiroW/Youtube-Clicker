@@ -25,6 +25,10 @@ public class ButtonManager : MonoBehaviour
         {
             b = new DramaButton();
         }
+        else if (buttonType == "Pub")
+        {
+            b = new PubButton();
+        }
 
         canvasGroup = GetComponent<CanvasGroup>();
         baseSize = GetComponent<RectTransform>().sizeDelta;
