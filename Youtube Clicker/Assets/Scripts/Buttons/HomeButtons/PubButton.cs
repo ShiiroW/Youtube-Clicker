@@ -10,7 +10,7 @@ public class PubButton : Button
 
     public override void OnClick()
     {
-        subGain = (long)Mathf.Round(10 * (CounterDisplayer.reputation/100));
+        if (base.isAvailable && base.isClickacble) subGain = (long)Mathf.Round(10 * (CounterDisplayer.reputation/100));
         base.OnClick();
     }
 }

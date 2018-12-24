@@ -9,8 +9,10 @@ public class Cooldown : MonoBehaviour
     float timeLeft = 5 * 60;
     public bool cooldownStarted = false;
 
+    private Cooldown instance;
+
     // Start is called before the first frame update
-    void Start()
+    void Awake()
     {
         DontDestroyOnLoad(this);
     }

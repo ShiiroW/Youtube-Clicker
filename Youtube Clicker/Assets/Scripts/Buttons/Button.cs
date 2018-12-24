@@ -5,6 +5,7 @@ using UnityEngine;
 public class Button {
 
     public bool isClickacble = true;
+    public bool isAvailable;
 
     public ButtonManager b;
 
@@ -24,7 +25,7 @@ public class Button {
 
     void OnMouseDown()
     {
-        if (isClickacble)
+        if (isClickacble && isAvailable)
         {
             OnClick();
             b.cooldown.StartCooldown();
@@ -33,7 +34,7 @@ public class Button {
 
     public virtual void OnClick()
     {
-        if (!isClickacble) return;
+        if (!isClickacble && isAvailable) return;
         CounterDisplayer.subs += subGain;
         CounterDisplayer.money += moneyGain;
         CounterDisplayer.reputation += reputationGain;
@@ -41,5 +42,9 @@ public class Button {
         b.cooldown.StartCooldown();
     }
 
+    public virtual bool CheckUnlock()
+    {
+        return true;
+    }
 
 }

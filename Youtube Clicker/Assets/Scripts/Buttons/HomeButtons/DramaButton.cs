@@ -11,7 +11,12 @@ public class DramaButton : Button
 
     public override void OnClick()
     {
-        this.subGain = (int)(CounterDisplayer.subs * 0.1);
+        if (base.isAvailable && base.isClickacble) this.subGain = (int)(CounterDisplayer.subs * 0.1);
         base.OnClick();
+    }
+
+    public override bool CheckUnlock()
+    {
+        return CounterDisplayer.subs >= 10;
     }
 }

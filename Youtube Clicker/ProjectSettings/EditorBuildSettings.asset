@@ -8,4 +8,13 @@ EditorBuildSettings:
   - enabled: 0
     path: 
     guid: 00000000000000000000000000000000
+  - enabled: 1
+    path: Assets/Scenes/PreloadScene.unity
+    guid: 0cd1eedd826a45743b976ddc2b43e6b3
+  - enabled: 1
+    path: Assets/Scenes/GameScene.unity
+    guid: 0122b3af35942b1468ae45c3d74f01da
+  - enabled: 1
+    path: Assets/Scenes/VideoScene.unity
+    guid: a437949729fe73047a4d4993dd4aa693
   m_configObjects: {}

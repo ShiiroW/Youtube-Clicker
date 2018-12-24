@@ -343,7 +343,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   buttonType: Sub4Sub
+  buttonAvailable: 1
   cooldown: {fileID: 0}
+  cooldownBar: {fileID: 9106830510615452649}
+  cadenasSprite: {fileID: 21300000, guid: 2b2b82d9dc230ef4a876121ba80b4c99, type: 3}
 --- !u!225 &9106830509370644845
 CanvasGroup:
   m_ObjectHideFlags: 0

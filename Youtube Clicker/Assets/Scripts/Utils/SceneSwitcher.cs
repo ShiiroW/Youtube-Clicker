@@ -1,17 +1,17 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
-public class Initializer : MonoBehaviour
+public class SceneSwitcher : MonoBehaviour
 {
 
-    public BonusManager manager;
+    public string scene;
 
     // Start is called before the first frame update
     void Start()
     {
-        BonusData.Init();
-
-        Destroy(gameObject);
+        SceneManager.LoadScene(scene);
     }
+
 }

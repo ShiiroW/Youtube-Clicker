@@ -19,7 +19,7 @@ public class CounterDisplayer : MonoBehaviour
     void Update()
     {
         subText.GetComponent<TextMeshProUGUI>().text = Utils.formatInt(subs);
-        moneyText.GetComponent<TextMeshProUGUI>().text = Utils.formatInt(money)+"$";
+        moneyText.GetComponent<TextMeshProUGUI>().text = Utils.formatInt(money)+" $";
         reputationText.GetComponent<TextMeshProUGUI>().text = Math.Round(reputation, 1).ToString()+"%";
         videosText.GetComponent<TextMeshProUGUI>().text = Utils.formatInt(videos);
     }

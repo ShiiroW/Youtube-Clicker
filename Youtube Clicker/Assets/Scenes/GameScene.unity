@@ -112,6 +112,18 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
+--- !u!114 &46634627 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 9106830509370644841, guid: fd91149966be25a4199cff5f81876259,
+    type: 3}
+  m_PrefabInstance: {fileID: 1488942853}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6f549cc45d4154845aabe128c40b3b4f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &66932954
 GameObject:
   m_ObjectHideFlags: 0
@@ -336,56 +348,9 @@ Transform:
   m_LocalPosition: {x: -0.002, y: -4.558, z: 0}
   m_LocalScale: {x: 0.24685164, y: 0.24685164, z: 0.24685164}
   m_Children:
-  - {fileID: 428419829}
-  - {fileID: 1063400261}
-  - {fileID: 476063718}
+  - {fileID: 1833961407}
   m_Father: {fileID: 0}
   m_RootOrder: 4
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &108388869
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 108388871}
-  - component: {fileID: 108388870}
-  m_Layer: 0
-  m_Name: CooldownDoubleCompte
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!114 &108388870
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 108388869}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9f586d90193745d478b1666b79356297, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  cooldown: 10
-  cooldownStarted: 0
---- !u!4 &108388871
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 108388869}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0.6441586, y: -0.2165525, z: 0.12695312}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 12
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &109220170
 GameObject:
@@ -452,51 +417,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 1
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &137709648
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 137709650}
-  - component: {fileID: 137709649}
-  m_Layer: 0
-  m_Name: CooldownSub4Sub
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!114 &137709649
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 137709648}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9f586d90193745d478b1666b79356297, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  cooldown: 3
-  cooldownStarted: 0
---- !u!4 &137709650
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 137709648}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0.6441586, y: -0.2165525, z: 0.12695312}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 11
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &208139330
 GameObject:
@@ -734,6 +654,30 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 280249382}
   m_CullTransparentMesh: 0
+--- !u!114 &294402731 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 9106830509370644841, guid: fd91149966be25a4199cff5f81876259,
+    type: 3}
+  m_PrefabInstance: {fileID: 1198680060}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6f549cc45d4154845aabe128c40b3b4f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &302302930 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 9106830509370644841, guid: fd91149966be25a4199cff5f81876259,
+    type: 3}
+  m_PrefabInstance: {fileID: 9106830510384535379}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6f549cc45d4154845aabe128c40b3b4f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &428419828
 GameObject:
   m_ObjectHideFlags: 0
@@ -744,6 +688,7 @@ GameObject:
   m_Component:
   - component: {fileID: 428419829}
   - component: {fileID: 428419830}
+  - component: {fileID: 428419831}
   m_Layer: 0
   m_Name: VideoButton
   m_TagString: Untagged
@@ -758,11 +703,11 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 428419828}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -0.008077545, y: -0.092892736, z: 0}
+  m_LocalScale: {x: 0.9969776, y: 0.9969776, z: 0.9915114}
   m_Children: []
-  m_Father: {fileID: 100350800}
+  m_Father: {fileID: 1833961407}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!61 &428419830
@@ -791,6 +736,19 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 5.700284, y: 3.7936616}
   m_EdgeRadius: 0
+--- !u!114 &428419831
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 428419828}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f5916544cc614224eb9e5334ce0ec416, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  scene: VideoScene
 --- !u!1 &476063717
 GameObject:
   m_ObjectHideFlags: 0
@@ -801,6 +759,7 @@ GameObject:
   m_Component:
   - component: {fileID: 476063718}
   - component: {fileID: 476063719}
+  - component: {fileID: 476063720}
   m_Layer: 0
   m_Name: PersonnelButton
   m_TagString: Untagged
@@ -815,11 +774,11 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 476063717}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -0.008077545, y: -0.092892736, z: 0}
+  m_LocalScale: {x: 0.9969776, y: 0.9969776, z: 0.9915114}
   m_Children: []
-  m_Father: {fileID: 100350800}
+  m_Father: {fileID: 1833961407}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!61 &476063719
@@ -848,6 +807,19 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 5.6959286, y: 3.7808352}
   m_EdgeRadius: 0
+--- !u!114 &476063720
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 476063717}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f5916544cc614224eb9e5334ce0ec416, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  scene: PersonnelScene
 --- !u!1 &482238927
 GameObject:
   m_ObjectHideFlags: 0
@@ -1378,51 +1350,6 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &854048895
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 854048897}
-  - component: {fileID: 854048896}
-  m_Layer: 0
-  m_Name: CooldownPub
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!114 &854048896
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 854048895}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9f586d90193745d478b1666b79356297, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  cooldown: 600
-  cooldownStarted: 0
---- !u!4 &854048897
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 854048895}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0.6441586, y: -0.2165525, z: 0.12695312}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 10
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &940451152
 GameObject:
   m_ObjectHideFlags: 0
@@ -1697,6 +1624,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1063400261}
   - component: {fileID: 1063400262}
+  - component: {fileID: 1063400263}
   m_Layer: 0
   m_Name: CollabButton
   m_TagString: Untagged
@@ -1711,11 +1639,11 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1063400260}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -0.008077545, y: -0.092892736, z: 0}
+  m_LocalScale: {x: 0.9969776, y: 0.9969776, z: 0.9915114}
   m_Children: []
-  m_Father: {fileID: 100350800}
+  m_Father: {fileID: 1833961407}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!61 &1063400262
@@ -1744,6 +1672,19 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 5.6959324, y: 3.7808337}
   m_EdgeRadius: 0
+--- !u!114 &1063400263
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1063400260}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f5916544cc614224eb9e5334ce0ec416, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  scene: CollabScene
 --- !u!1001 &1102959376
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1876,7 +1817,7 @@ PrefabInstance:
         type: 3}
       propertyPath: cooldown
       value: 
-      objectReference: {fileID: 854048896}
+      objectReference: {fileID: 0}
     - target: {fileID: 9106830510594692726, guid: fd91149966be25a4199cff5f81876259,
         type: 3}
       propertyPath: m_text
@@ -2056,7 +1997,7 @@ PrefabInstance:
         type: 3}
       propertyPath: cooldown
       value: 
-      objectReference: {fileID: 108388870}
+      objectReference: {fileID: 0}
     - target: {fileID: 9106830510594692726, guid: fd91149966be25a4199cff5f81876259,
         type: 3}
       propertyPath: m_havePropertiesChanged
@@ -2421,7 +2362,12 @@ PrefabInstance:
         type: 3}
       propertyPath: cooldown
       value: 
-      objectReference: {fileID: 1852100953}
+      objectReference: {fileID: 0}
+    - target: {fileID: 9106830509370644841, guid: fd91149966be25a4199cff5f81876259,
+        type: 3}
+      propertyPath: buttonAvailable
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 9106830510594692726, guid: fd91149966be25a4199cff5f81876259,
         type: 3}
       propertyPath: m_text
@@ -2656,57 +2602,15 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1833961405}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: -4.535, z: 0}
-  m_LocalScale: {x: 0.2476, y: 0.2476, z: 0.248965}
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 8
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &1852100952
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1852100957}
-  - component: {fileID: 1852100953}
-  m_Layer: 0
-  m_Name: CooldownDrama
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!114 &1852100953
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1852100952}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9f586d90193745d478b1666b79356297, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  cooldown: 300
-  cooldownStarted: 0
---- !u!4 &1852100957
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1852100952}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0.6441586, y: -0.2165525, z: 0.12695312}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 9
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0.008102033, y: 0.093174346, z: 0}
+  m_LocalScale: {x: 1.0030316, y: 1.0030316, z: 1.0085613}
+  m_Children:
+  - {fileID: 428419829}
+  - {fileID: 1063400261}
+  - {fileID: 476063718}
+  m_Father: {fileID: 100350800}
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1852253985
 GameObject:
@@ -2945,6 +2849,18 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1924055776}
   m_CullTransparentMesh: 0
+--- !u!114 &1968410433 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 9106830509370644841, guid: fd91149966be25a4199cff5f81876259,
+    type: 3}
+  m_PrefabInstance: {fileID: 1102959376}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6f549cc45d4154845aabe128c40b3b4f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!224 &1991778718 stripped
 RectTransform:
   m_CorrespondingSourceObject: {fileID: 9106830509972035090, guid: fd91149966be25a4199cff5f81876259,
@@ -3038,6 +2954,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   manager: {fileID: 2005194814}
+  sub4sub: {fileID: 302302930}
+  account: {fileID: 294402731}
+  drama: {fileID: 46634627}
+  pub: {fileID: 1968410433}
 --- !u!1001 &9106830510384535379
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3159,7 +3079,7 @@ PrefabInstance:
         type: 3}
       propertyPath: cooldown
       value: 
-      objectReference: {fileID: 137709649}
+      objectReference: {fileID: 0}
     - target: {fileID: 9106830510594692726, guid: fd91149966be25a4199cff5f81876259,
         type: 3}
       propertyPath: m_havePropertiesChanged
