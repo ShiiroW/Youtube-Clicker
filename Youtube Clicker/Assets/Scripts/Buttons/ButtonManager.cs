@@ -60,6 +60,11 @@ public class ButtonManager : MonoBehaviour
             b = new TresTravailleeButton(this, GameObject.Find("BonusManager").GetComponent<BonusManager>());
             b.isAvailable = buttonAvailable;
         }
+        else if (buttonType == "Sponso")
+        {
+            b = new SponsoButton(this);
+            b.isAvailable = buttonAvailable;
+        }
 
         canvasGroup = GetComponent<CanvasGroup>();
         baseSize = GetComponent<RectTransform>().sizeDelta;

@@ -440,7 +440,7 @@ PrefabInstance:
     - target: {fileID: 9106830509370644841, guid: fd91149966be25a4199cff5f81876259,
         type: 3}
       propertyPath: buttonType
-      value: Pub
+      value: Sponso
       objectReference: {fileID: 0}
     - target: {fileID: 9106830509370644841, guid: fd91149966be25a4199cff5f81876259,
         type: 3}
@@ -517,6 +517,33 @@ PrefabInstance:
         type: 3}
       propertyPath: cooldown
       value: 600
+      objectReference: {fileID: 0}
+    - target: {fileID: 9106830508868891663, guid: fd91149966be25a4199cff5f81876259,
+        type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 0d0763dd719ced84abb9e120647a195b,
+        type: 3}
+    - target: {fileID: 9106830509427685374, guid: fd91149966be25a4199cff5f81876259,
+        type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 0d0763dd719ced84abb9e120647a195b,
+        type: 3}
+    - target: {fileID: 9106830509749486154, guid: fd91149966be25a4199cff5f81876259,
+        type: 3}
+      propertyPath: m_Color.r
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 9106830509749486154, guid: fd91149966be25a4199cff5f81876259,
+        type: 3}
+      propertyPath: m_Color.g
+      value: 0.6392157
+      objectReference: {fileID: 0}
+    - target: {fileID: 9106830509749486154, guid: fd91149966be25a4199cff5f81876259,
+        type: 3}
+      propertyPath: m_Color.b
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: fd91149966be25a4199cff5f81876259, type: 3}
@@ -678,7 +705,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: 4db2fc28a79e0674ab59d4fd6794bba0, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 62ba145e3a35d6640bafe233fbbcdebb, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -917,6 +944,33 @@ PrefabInstance:
         type: 3}
       propertyPath: cooldown
       value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 9106830508868891663, guid: fd91149966be25a4199cff5f81876259,
+        type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 0d0763dd719ced84abb9e120647a195b,
+        type: 3}
+    - target: {fileID: 9106830509427685374, guid: fd91149966be25a4199cff5f81876259,
+        type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 0d0763dd719ced84abb9e120647a195b,
+        type: 3}
+    - target: {fileID: 9106830509749486154, guid: fd91149966be25a4199cff5f81876259,
+        type: 3}
+      propertyPath: m_Color.r
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 9106830509749486154, guid: fd91149966be25a4199cff5f81876259,
+        type: 3}
+      propertyPath: m_Color.g
+      value: 0.6392157
+      objectReference: {fileID: 0}
+    - target: {fileID: 9106830509749486154, guid: fd91149966be25a4199cff5f81876259,
+        type: 3}
+      propertyPath: m_Color.b
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: fd91149966be25a4199cff5f81876259, type: 3}
@@ -1360,6 +1414,33 @@ PrefabInstance:
         type: 3}
       propertyPath: m_isInputParsingRequired
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 9106830508868891663, guid: fd91149966be25a4199cff5f81876259,
+        type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 0d0763dd719ced84abb9e120647a195b,
+        type: 3}
+    - target: {fileID: 9106830509427685374, guid: fd91149966be25a4199cff5f81876259,
+        type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 0d0763dd719ced84abb9e120647a195b,
+        type: 3}
+    - target: {fileID: 9106830509749486154, guid: fd91149966be25a4199cff5f81876259,
+        type: 3}
+      propertyPath: m_Color.r
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 9106830509749486154, guid: fd91149966be25a4199cff5f81876259,
+        type: 3}
+      propertyPath: m_Color.g
+      value: 0.6392157
+      objectReference: {fileID: 0}
+    - target: {fileID: 9106830509749486154, guid: fd91149966be25a4199cff5f81876259,
+        type: 3}
+      propertyPath: m_Color.b
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: fd91149966be25a4199cff5f81876259, type: 3}
@@ -2831,7 +2912,7 @@ PrefabInstance:
     - target: {fileID: 9106830509370644841, guid: fd91149966be25a4199cff5f81876259,
         type: 3}
       propertyPath: buttonType
-      value: Drama
+      value: TresTravaillee
       objectReference: {fileID: 0}
     - target: {fileID: 9106830509370644841, guid: fd91149966be25a4199cff5f81876259,
         type: 3}
@@ -2913,6 +2994,33 @@ PrefabInstance:
         type: 3}
       propertyPath: cooldown
       value: 300
+      objectReference: {fileID: 0}
+    - target: {fileID: 9106830508868891663, guid: fd91149966be25a4199cff5f81876259,
+        type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 0d0763dd719ced84abb9e120647a195b,
+        type: 3}
+    - target: {fileID: 9106830509427685374, guid: fd91149966be25a4199cff5f81876259,
+        type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 0d0763dd719ced84abb9e120647a195b,
+        type: 3}
+    - target: {fileID: 9106830509749486154, guid: fd91149966be25a4199cff5f81876259,
+        type: 3}
+      propertyPath: m_Color.r
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 9106830509749486154, guid: fd91149966be25a4199cff5f81876259,
+        type: 3}
+      propertyPath: m_Color.g
+      value: 0.6392157
+      objectReference: {fileID: 0}
+    - target: {fileID: 9106830509749486154, guid: fd91149966be25a4199cff5f81876259,
+        type: 3}
+      propertyPath: m_Color.b
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: fd91149966be25a4199cff5f81876259, type: 3}
