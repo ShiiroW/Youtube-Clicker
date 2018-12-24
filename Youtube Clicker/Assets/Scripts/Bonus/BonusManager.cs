@@ -5,7 +5,7 @@ using UnityEngine;
 public class BonusManager : MonoBehaviour
 {
 
-    ArrayList bonusList = new ArrayList();
+    public static ArrayList bonusList = new ArrayList();
 
     // Update is called once per frame
     void Update()
