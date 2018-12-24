@@ -6,6 +6,7 @@ public class ButtonManager : MonoBehaviour
 
     public String buttonType;
     CanvasGroup canvasGroup;
+    public Cooldown cooldown;
     Button b;
     Vector2 baseSize;
     bool animationStart = false;
@@ -16,18 +17,18 @@ public class ButtonManager : MonoBehaviour
     {
         if (buttonType == "CreateAccount")
         {
-            b = new AccountButton();
+            b = new AccountButton(this);
         }else if (buttonType == "Sub4Sub")
         {
-            b = new Sub4SubButton();
+            b = new Sub4SubButton(this);
         }
         else if (buttonType == "Drama")
         {
-            b = new DramaButton();
+            b = new DramaButton(this);
         }
         else if (buttonType == "Pub")
         {
-            b = new PubButton();
+            b = new PubButton(this);
         }
 
         canvasGroup = GetComponent<CanvasGroup>();
@@ -37,12 +38,16 @@ public class ButtonManager : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        b.UpdateCooldown();
-        if (b.cooldownStarted)
+        if (cooldown.cooldownStarted)
         {
+            b.isClickacble = false;
             canvasGroup.alpha = 0.5f;
         }
-        else canvasGroup.alpha = 1;
+        else
+        {
+            canvasGroup.alpha = 1;
+            b.isClickacble = true;
+        }
 
         if (animationStart && frame <= 5)
         {

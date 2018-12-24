@@ -343,6 +343,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   buttonType: Sub4Sub
+  cooldown: {fileID: 0}
 --- !u!225 &9106830509370644845
 CanvasGroup:
   m_ObjectHideFlags: 0

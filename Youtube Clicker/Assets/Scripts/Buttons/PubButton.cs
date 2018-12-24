@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class PubButton : Button
 {
-    public PubButton() : base(600, 2, 0, -0.3f, 0)
+    public PubButton(ButtonManager b) : base(2, 0, -0.3f, 0, b)
     {
     }
 

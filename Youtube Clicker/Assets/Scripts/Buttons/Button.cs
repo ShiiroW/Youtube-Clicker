@@ -2,25 +2,24 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Button { 
+public class Button {
 
     public bool isClickacble = true;
-    public float cooldown = 5; //EN SECONDES;
-    float timeLeft = 5*60;
-    public bool cooldownStarted = false;
+
+    public ButtonManager b;
 
     public long subGain = 0;
     public long moneyGain = 0;
     public float reputationGain = 0;
     public long videosGain = 0;
 
-    public Button(float cooldown, long subGain, long moneyGain, float reputationGain, long videosGain)
+    public Button(long subGain, long moneyGain, float reputationGain, long videosGain, ButtonManager b)
     {
-        this.cooldown = cooldown;
         this.subGain = subGain;
         this.moneyGain = moneyGain;
         this.reputationGain = reputationGain;
         this.videosGain = videosGain;
+        this.b = b;
     }
 
     void OnMouseDown()
@@ -28,7 +27,7 @@ public class Button {
         if (isClickacble)
         {
             OnClick();
-            StartCooldown();
+            b.cooldown.StartCooldown();
         }
     }
 
@@ -39,37 +38,8 @@ public class Button {
         CounterDisplayer.money += moneyGain;
         CounterDisplayer.reputation += reputationGain;
         CounterDisplayer.videos += videosGain;
-        StartCooldown();
+        b.cooldown.StartCooldown();
     }
 
-    public void StartCooldown()
-    {
-        isClickacble = false;
-        timeLeft = 0;
-        cooldownStarted = true;
-    }
-
-    public void UpdateCooldown()
-    {
-        if (!cooldownStarted) return;
-        timeLeft++;
-
-        if (timeLeft > cooldown*60)
-        {
-            StopCooldown();
-        }
-
-    }
-
-    public void StopCooldown()
-    {
-        isClickacble = true;
-        cooldownStarted = false;
-    }
-
-    public float getTimeLeft()
-    {
-        return timeLeft;
-    }
 
 }

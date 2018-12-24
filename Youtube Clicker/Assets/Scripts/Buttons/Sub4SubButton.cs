@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class Sub4SubButton : Button
 {
-    public Sub4SubButton() : base(3, 1, 0, -0.2f, 0)
+    public Sub4SubButton(ButtonManager b) : base(1, 0, -0.2f, 0, b)
     {
         
     }
